@@ -7,9 +7,9 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise115.CheckStatus("Delivered");
-            // ClassExercise120.CheckWorker();
-            ClassExercise121.CheckPosts();
+            // ClassExercise115.CheckStatus("Delivered");
+            // ClassExercise120.LaborAccounting();
+            ClassExercise121.SocialMediaPosts();
 
             Console.ReadLine();
         }

@@ -10,7 +10,7 @@ namespace Exercises.EntitiesAndEnum.Execute
         /// <summary>
         /// Create a new file for the worker and add their income to calculate over a period of time
         /// </summary>
-        public static void CheckWorker()
+        public static void LaborAccounting()
         {
             Console.Write("Enter department's name: ");
             Department _department = new Department(Console.ReadLine());

@@ -39,7 +39,7 @@ namespace Exercises.EntitiesAndEnum.Entities
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine(Title);
+            sb.AppendLine("\n" + Title);
             sb.Append(Likes.ToString());
             sb.Append(" Likes - ");
             sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
