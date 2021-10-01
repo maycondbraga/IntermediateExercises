@@ -1,7 +1,7 @@
 ﻿using System;
-using Exercises.EntitiesAndEnum.Entities.Enums;
+using Exercises.Compositions.Entities.Enums;
 
-namespace Exercises.EntitiesAndEnum.Entities
+namespace Exercises.Compositions.Entities
 {
     class Order
     {

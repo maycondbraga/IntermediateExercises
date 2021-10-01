@@ -1,7 +1,7 @@
 ﻿using System;
-using Exercises.EntitiesAndEnum.Entities.Enums;
+using Exercises.Compositions.Entities.Enums;
 
-namespace Exercises.EntitiesAndEnum.Execute
+namespace Exercises.Compositions.Execute
 {
     public class ClassExercise115
     {

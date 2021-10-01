@@ -1,4 +1,4 @@
-﻿namespace Exercises.EntitiesAndEnum.Entities
+﻿namespace Exercises.Compositions.Entities
 {
     class Department
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
-using Exercises.EntitiesAndEnum.Entities;
-using Exercises.EntitiesAndEnum.Entities.Enums;
+using Exercises.Compositions.Entities;
+using Exercises.Compositions.Entities.Enums;
 
-namespace Exercises.EntitiesAndEnum.Execute
+namespace Exercises.Compositions.Execute
 {
     public class ClassExercise120
     {

@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading;
-using Exercises.EntitiesAndEnum.Entities;
-using Exercises.EntitiesAndEnum.Entities.Enums;
+using System.Collections.Generic;
+using Exercises.Compositions.Entities;
+using Exercises.Compositions.Entities.Enums;
 
-namespace Exercises.EntitiesAndEnum.Execute
+namespace Exercises.Compositions.Execute
 {
     public class ClassExercise121
     {

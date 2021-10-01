@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercises.EntitiesAndEnum.Entities
+namespace Exercises.Compositions.Entities
 {
     class HourContract
     {

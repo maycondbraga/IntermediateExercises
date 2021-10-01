@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Exercises.EntitiesAndEnum\Exercises.EntitiesAndEnum.csproj" />
+    <ProjectReference Include="..\Exercises.EntitiesAndEnum\Exercises.Compositions.csproj" />
   </ItemGroup>
 
 </Project>
