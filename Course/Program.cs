@@ -7,8 +7,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise132 exercise = new ClassExercise132();
-            exercise.PriceTags();
+            ClassExercise126 exercise = new ClassExercise126();
+            exercise.UpcastingDowncasting();
         }
     }
 }

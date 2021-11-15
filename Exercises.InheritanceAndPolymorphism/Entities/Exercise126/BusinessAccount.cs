@@ -1,6 +1,6 @@
 ﻿namespace Exercises.Inheritance.Entities.Exercise126
 {
-    public class BusinessAccount : Account
+    class BusinessAccount : Account
     {
         public double LoanLimit { get; set; }
 
