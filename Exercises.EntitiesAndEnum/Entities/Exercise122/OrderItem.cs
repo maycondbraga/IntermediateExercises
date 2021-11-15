@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Exercises.Compositions.Entities
+namespace Exercises.Compositions.Entities.Exercise122
 {
     class OrderItem
     {

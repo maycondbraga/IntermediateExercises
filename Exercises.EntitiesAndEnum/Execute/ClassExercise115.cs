@@ -1,5 +1,5 @@
 ﻿using System;
-using Exercises.Compositions.Entities.Enums;
+using Exercises.Compositions.Enums;
 
 namespace Exercises.Compositions.Execute
 {
@@ -11,9 +11,9 @@ namespace Exercises.Compositions.Execute
         /// <param name="status"></param>
         public static void CheckStatus(string status)
         {
-            if (Enum.TryParse<OrderStatus>(status, out OrderStatus orderStatus))
+            if (Enum.TryParse(status, out OrderStatus orderStatus))
             {
-                Console.WriteLine($"\nStatus {status} exist");
+                Console.WriteLine($"\nStatus {orderStatus} exist");
             }
             else
             {

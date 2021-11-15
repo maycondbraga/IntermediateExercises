@@ -1,4 +1,4 @@
-﻿using Exercises.InheritanceAndPolymorphism.Entities;
+﻿using Exercises.InheritanceAndPolymorphism.Entities.Exercise126;
 using System;
 
 namespace Exercises.InheritanceAndPolymorphism.Execute

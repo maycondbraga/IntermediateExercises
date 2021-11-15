@@ -1,15 +1,14 @@
 ﻿using System;
 using Exercises.InheritanceAndPolymorphism.Execute;
 
-
 namespace Course
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ClassExercise126 acc = new ClassExercise126();
-            acc.UpcastingDowncasting();
+            ClassExercise130 exercise = new ClassExercise130();
+            exercise.LoadPayment();
             Console.ReadLine();
         }
     }

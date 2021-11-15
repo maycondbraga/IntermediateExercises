@@ -1,4 +1,4 @@
-﻿namespace Exercises.Compositions.Entities.Enums
+﻿namespace Exercises.Compositions.Enums
 {
     enum WorkerLevel : int
     {

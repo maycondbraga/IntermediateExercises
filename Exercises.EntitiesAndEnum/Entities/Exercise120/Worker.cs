@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Exercises.Compositions.Entities.Enums;
+using Exercises.Compositions.Enums;
 
-namespace Exercises.Compositions.Entities
+namespace Exercises.Compositions.Entities.Exercise120
 {
     class Worker
     {

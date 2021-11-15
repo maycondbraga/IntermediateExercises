@@ -2,7 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 
-namespace Exercises.Compositions.Entities
+namespace Exercises.Compositions.Entities.Exercise121
 {
     class Post
     {

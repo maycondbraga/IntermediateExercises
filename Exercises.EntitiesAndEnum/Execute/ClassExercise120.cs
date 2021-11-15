@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
-using Exercises.Compositions.Entities;
-using Exercises.Compositions.Entities.Enums;
+using Exercises.Compositions.Entities.Exercise120;
+using Exercises.Compositions.Enums;
 
 namespace Exercises.Compositions.Execute
 {

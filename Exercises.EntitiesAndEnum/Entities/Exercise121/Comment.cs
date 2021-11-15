@@ -1,4 +1,4 @@
-﻿namespace Exercises.Compositions.Entities
+﻿namespace Exercises.Compositions.Entities.Exercise121
 {
     class Comment
     {

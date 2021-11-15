@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using Exercises.Compositions.Entities.Enums;
+using Exercises.Compositions.Enums;
 
-namespace Exercises.Compositions.Entities
+namespace Exercises.Compositions.Entities.Exercise122
 {
     class Order
     {
