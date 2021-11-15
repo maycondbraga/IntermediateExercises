@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Exercises.Compositions.Entities.Exercise120;
-using Exercises.Compositions.Enums;
+using Exercises.Compositions.Enum;
 
 namespace Exercises.Compositions.Execute
 {
@@ -21,7 +21,7 @@ namespace Exercises.Compositions.Execute
             string _name = Console.ReadLine();
 
             Console.Write("Level (Junior/MidLevel/Senior): ");
-            WorkerLevel _level = Enum.Parse<WorkerLevel>(Console.ReadLine());
+            WorkerLevel _level = System.Enum.Parse<WorkerLevel>(Console.ReadLine());
 
             Console.Write("Base Salary: ");
             double _salary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);

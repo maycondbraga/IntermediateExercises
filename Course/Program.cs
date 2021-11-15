@@ -1,5 +1,4 @@
-﻿using System;
-using Exercises.Inheritance.Execute;
+﻿using Exercises.Inheritance.Execute;
 
 namespace Course
 {
@@ -7,8 +6,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise126 exercise = new ClassExercise126();
-            exercise.UpcastingDowncasting();
+            ClassExercise135 exercise = new ClassExercise135();
+            exercise.ShapeAreas();
         }
     }
 }

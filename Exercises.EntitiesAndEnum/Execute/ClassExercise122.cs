@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Exercises.Compositions.Entities.Exercise122;
-using Exercises.Compositions.Enums;
+using Exercises.Compositions.Enum;
 
 namespace Exercises.Compositions.Execute
 {
@@ -23,7 +23,7 @@ namespace Exercises.Compositions.Execute
             Console.WriteLine("\nEnter order data:");
 
             Console.Write("\nStatus: ");
-            OrderStatus _status = Enum.Parse<OrderStatus>(Console.ReadLine());
+            OrderStatus _status = System.Enum.Parse<OrderStatus>(Console.ReadLine());
 
             Client _client = new Client(_name, _email, _birthDate);
             Order order = new Order(DateTime.Now, _status, _client);

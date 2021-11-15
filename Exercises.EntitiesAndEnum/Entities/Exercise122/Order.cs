@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using Exercises.Compositions.Enums;
+using Exercises.Compositions.Enum;
 
 namespace Exercises.Compositions.Entities.Exercise122
 {

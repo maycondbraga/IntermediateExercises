@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Collections.Generic;
 using Exercises.Compositions.Entities.Exercise121;
-using Exercises.Compositions.Enums;
+using Exercises.Compositions.Enum;
 
 namespace Exercises.Compositions.Execute
 {
@@ -22,7 +22,7 @@ namespace Exercises.Compositions.Execute
                 Console.WriteLine("What do you want to do?");
                 Console.WriteLine("\n1. AddPost \n2. RemovePost \n3. SearchPost \n4. Exit \n");
 
-                PostMenuOption option = (PostMenuOption)Enum.Parse(typeof(PostMenuOption), Console.ReadLine());
+                PostMenuOption option = (PostMenuOption)System.Enum.Parse(typeof(PostMenuOption), Console.ReadLine());
 
                 switch (option)
                 {

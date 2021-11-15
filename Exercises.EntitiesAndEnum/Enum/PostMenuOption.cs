@@ -1,4 +1,4 @@
-﻿namespace Exercises.Compositions.Enums
+﻿namespace Exercises.Compositions.Enum
 {
     enum PostMenuOption : int
     {

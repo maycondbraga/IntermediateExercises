@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Exercises.Compositions.Enums;
+using Exercises.Compositions.Enum;
 
 namespace Exercises.Compositions.Entities.Exercise120
 {
