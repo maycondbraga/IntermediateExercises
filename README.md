@@ -31,7 +31,7 @@
         <li><a href="https://docs.microsoft.com/dotnet/csharp/" target="_blank">C#</a></li>
     </ul>
 </a>
-    
+
 <a name="licencas">
     <h2>📃 License</h2>
     <p>This repository is licensed under the MIT LICENSE. For more detailed information, read the <a href="LICENSE">LICENSE</a> file contained in this repository.</p>
