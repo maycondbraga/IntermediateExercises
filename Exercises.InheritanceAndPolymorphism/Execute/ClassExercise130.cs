@@ -45,7 +45,7 @@ namespace Exercises.Inheritance.Execute
                 }
             }
 
-            Console.WriteLine("PAYMENTS:");
+            Console.WriteLine("\nPAYMENTS:");
             foreach (Employee employee in employees)
             {
                 Console.WriteLine($"{employee.Name} - $ {employee.Payment().ToString("F2", CultureInfo.InvariantCulture)}");
