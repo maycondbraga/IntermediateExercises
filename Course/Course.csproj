@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Exercises.EntitiesAndEnum\Exercises.Compositions.csproj" />
+    <ProjectReference Include="..\Exercises.InheritanceAndPolymorphism\Exercises.InheritanceAndPolymorphism.csproj" />
   </ItemGroup>
 
 </Project>

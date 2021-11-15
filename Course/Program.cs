@@ -1,5 +1,6 @@
 ﻿using System;
-using Exercises.Compositions.Execute;
+using Exercises.InheritanceAndPolymorphism.Execute;
+
 
 namespace Course
 {
@@ -7,7 +8,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise121.SocialMediaPosts();
+            ClassExercise126 acc = new ClassExercise126();
+            acc.UpcastingDowncasting();
             Console.ReadLine();
         }
     }

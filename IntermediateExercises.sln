@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "Course\Course.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises.Compositions", "Exercises.EntitiesAndEnum\Exercises.Compositions.csproj", "{8579DDBB-CE00-4BFC-9EDB-32CB0A836E75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.InheritanceAndPolymorphism", "Exercises.InheritanceAndPolymorphism\Exercises.InheritanceAndPolymorphism.csproj", "{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8579DDBB-CE00-4BFC-9EDB-32CB0A836E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8579DDBB-CE00-4BFC-9EDB-32CB0A836E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8579DDBB-CE00-4BFC-9EDB-32CB0A836E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
