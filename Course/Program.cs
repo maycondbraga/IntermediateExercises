@@ -6,8 +6,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise135 exercise = new ClassExercise135();
-            exercise.ShapeAreas();
+            ClassExercise136 exercise = new ClassExercise136();
+            exercise.Taxes();
         }
     }
 }
