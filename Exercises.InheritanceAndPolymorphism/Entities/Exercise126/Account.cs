@@ -1,4 +1,4 @@
-﻿namespace Exercises.InheritanceAndPolymorphism.Entities.Exercise126
+﻿namespace Exercises.Inheritance.Entities.Exercise126
 {
     public class Account
     {

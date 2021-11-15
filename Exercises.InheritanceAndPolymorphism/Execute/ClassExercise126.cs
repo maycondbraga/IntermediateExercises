@@ -1,7 +1,7 @@
-﻿using Exercises.InheritanceAndPolymorphism.Entities.Exercise126;
+﻿using Exercises.Inheritance.Entities.Exercise126;
 using System;
 
-namespace Exercises.InheritanceAndPolymorphism.Execute
+namespace Exercises.Inheritance.Execute
 {
     public class ClassExercise126
     {

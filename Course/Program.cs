@@ -1,5 +1,5 @@
 ﻿using System;
-using Exercises.InheritanceAndPolymorphism.Execute;
+using Exercises.Inheritance.Execute;
 
 namespace Course
 {

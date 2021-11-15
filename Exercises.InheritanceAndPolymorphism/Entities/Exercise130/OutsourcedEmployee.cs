@@ -1,12 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Exercises.InheritanceAndPolymorphism.Entities.Exercise130
+﻿namespace Exercises.Inheritance.Entities.Exercise130
 {
-    class OutsourcedEmployee
+    public class OutsourcedEmployee : Employee
     {
+        public double AdditionalCharge { get; set; }
+
+        public OutsourcedEmployee()
+        {
+        }
+
+        public OutsourcedEmployee(string name, int hours, double valuePerHour, double additionalCharge) : base(name, hours, valuePerHour)
+        {
+            AdditionalCharge = additionalCharge;
+        }
+
+        public override double Payment()
+        {
+            double payment = base.Payment();
+            double additional = AdditionalCharge * 1.1;
+            return payment + additional;
+        }
     }
 }

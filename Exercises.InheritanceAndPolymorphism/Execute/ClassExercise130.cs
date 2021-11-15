@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Exercises.Inheritance.Entities.Exercise130;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
-namespace Exercises.InheritanceAndPolymorphism.Execute
+namespace Exercises.Inheritance.Execute
 {
     public class ClassExercise130
     {
@@ -13,7 +12,44 @@ namespace Exercises.InheritanceAndPolymorphism.Execute
         /// </summary>
         public void LoadPayment()
         {
+            List<Employee> employees = new List<Employee>();
 
+            Console.Write("Enter the number of employees: ");
+            int total = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i < total; i++)
+            {
+                Console.WriteLine($"Employee #{i + 1} data:");
+                Console.Write("Oursourced (y/n)? ");
+                string type = Console.ReadLine();
+
+                Console.Write("Name: ");
+                string name = Console.ReadLine();
+
+                Console.Write("Hours: ");
+                int hours = int.Parse(Console.ReadLine());
+
+                Console.Write("Value Per Hour: ");
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (type.ToUpper() == "Y")
+                {
+                    Console.Write("Additional Charge: ");
+                    double additionalCharge = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    employees.Add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge));
+                }
+                else
+                {
+                    employees.Add(new Employee(name, hours, valuePerHour));
+                }
+            }
+
+            Console.WriteLine("PAYMENTS:");
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine($"{employee.Name} - $ {employee.Payment().ToString("F2", CultureInfo.InvariantCulture)}");
+            }
         }
     }
 }
