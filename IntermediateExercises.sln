@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises.Compositions", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises.Inheritance", "Exercises.InheritanceAndPolymorphism\Exercises.Inheritance.csproj", "{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises.Exception", "Exercises.Exceptions\Exercises.Exception.csproj", "{BC982915-CE4A-4A09-ACB8-BF95FF42DA3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DDB153-85EF-4F35-B1D8-BDA0121050EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC982915-CE4A-4A09-ACB8-BF95FF42DA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC982915-CE4A-4A09-ACB8-BF95FF42DA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC982915-CE4A-4A09-ACB8-BF95FF42DA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC982915-CE4A-4A09-ACB8-BF95FF42DA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
 ﻿using Exercises.Inheritance.Execute;
+using Exercises.Compositions.Execute;
+using Exercises.Exception.Execute;
 
 namespace Course
 {
@@ -6,8 +8,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            ClassExercise136 exercise = new ClassExercise136();
-            exercise.Taxes();
+            ClassExercise145 exercise = new ClassExercise145();
+            exercise.AccountExceptions();
         }
     }
 }
