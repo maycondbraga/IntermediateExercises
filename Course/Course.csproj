@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Exercises.EntitiesAndEnum\Exercises.Compositions.csproj" />
     <ProjectReference Include="..\Exercises.Exceptions\Exercises.Exception.csproj" />
+    <ProjectReference Include="..\Exercises.Files\Exercises.Files.csproj" />
     <ProjectReference Include="..\Exercises.InheritanceAndPolymorphism\Exercises.Inheritance.csproj" />
   </ItemGroup>
 
